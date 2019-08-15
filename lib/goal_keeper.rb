@@ -19,7 +19,7 @@ class Goalkeeper < Player
 end
 
 
-class Sweeper_Keeper < Player
+class SweeperKeeper < Player
 
     def description
         "The sweeper keeper is the opposite of the Goalkeeper role. He will look to leave his
