@@ -4,7 +4,7 @@ require_relative 'goal_keeper'
 
 
 
-goleiro = Goal.new("Manuel Neuer", 32, "Germany", "192cm", "90Kg" )
+goleiro = Goalkeeper.new("Manuel Neuer", 32, "Germany", "192cm", "90Kg" )
 
 
 goleiro.technical_stats = {
@@ -52,4 +52,7 @@ goleiro.physical_stats = {
     STAMINA: 10,
     STRENGHT: 16
 }
+
+
+puts goleiro.defend
 
