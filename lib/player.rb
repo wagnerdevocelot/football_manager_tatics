@@ -1,11 +1,11 @@
 
 class Player
-    attr_accessor :name, :age, :nationa_team, :height, :weight, :technical_stats, :mental_stats, :physical_stats
+    attr_accessor :name, :age, :national_team, :height, :weight, :technical_stats, :mental_stats, :physical_stats
 
-    def initialize(name, age, nationa_team, height, weight)
+    def initialize(name, age, national_team, height, weight)
         @name = name
         @age = age
-        @nationa_team = nationa_team
+        @national_team = national_team
         @height = height
         @weight = weight
         @technical_stats = {}

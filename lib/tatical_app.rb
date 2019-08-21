@@ -1,10 +1,15 @@
 require_relative 'player'
 require_relative 'constants'
 require_relative 'goal_keeper'
+require_relative 'central_defense'
+require_relative 'full_back'
+require_relative 'striker'
+require_relative 'central_mid'
+require_relative 'winger'
 
 
 
-goleiro = Goalkeeper.new("Manuel Neuer", 32, "Germany", "192cm", "90Kg" )
+goleiro = SweeperKeeper.new("Manuel Neuer", "Age32", "Germany", "192cm", "90Kg" )
 
 
 goleiro.technical_stats = {
@@ -53,6 +58,4 @@ goleiro.physical_stats = {
     STRENGHT: 16
 }
 
-
-puts goleiro.defend
 
