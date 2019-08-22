@@ -6,13 +6,14 @@ require_relative 'full_back'
 require_relative 'striker'
 require_relative 'central_mid'
 require_relative 'winger'
+require_relative 'duty'
 
 
 
-goleiro = SweeperKeeper.new("Manuel Neuer", "Age32", "Germany", "192cm", "90Kg" )
+atacante = DeepLyingForward.new("Manuel Neuer", "Age32", "Germany", "192cm", "90Kg" )
 
 
-goleiro.technical_stats = {
+atacante.technical_stats = {
     CORNERS: 5,
     CROSSING: 9,
     DRIBBLING: 12,
@@ -29,7 +30,7 @@ goleiro.technical_stats = {
     TECHNIQUE: 15,
 }
 
-goleiro.mental_stats = {
+atacante.mental_stats = {
     AGRESSION: 8,
     ANTICIPATION: 20,
     BRAVERY: 14,
@@ -47,7 +48,7 @@ goleiro.mental_stats = {
 }
 
 
-goleiro.physical_stats = {
+atacante.physical_stats = {
     ACCELERATION: 13,
     AGILITY: 16,
     BALANCE: 15,
@@ -59,3 +60,4 @@ goleiro.physical_stats = {
 }
 
 
+print atacante.defend
