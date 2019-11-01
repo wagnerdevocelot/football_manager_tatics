@@ -11,7 +11,7 @@
 
 Observando a POO e Herança em particular percebi não só a analogia comum de a respeito da Biologia como também uma semelhança com
 menus e submenus. A ideia seria implementar classes de determinadas regiões do campo onde jogadores de habilidades especificas 
-atuam. 
+atuam usando apenas Ruby.
 
 ![](https://github.com/wagnerdevocelot/football_manager_tatics/blob/master/WW_Versatile_Opengraph.jpg)
 
